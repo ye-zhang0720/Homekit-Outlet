@@ -1,0 +1,34 @@
+/Users/zhangye/Documents/智能开关/homekit/outlet/build/libraries/Arduino-HomeKit-ESP8266-master/wolfcrypt/src/fe_operations.c.o: \
+ /Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/wolfcrypt/src/fe_operations.c \
+ /Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/wolfssl/wolfcrypt/settings.h \
+ /Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/wolfssl/wolfcrypt/visibility.h \
+ /Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/user_settings.h \
+ /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/tools/sdk/include/osapi.h \
+ /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/user_config.h \
+ /Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/homekit_debug.h \
+ /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/Arduino.h \
+ /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/stdlib_noniso.h \
+ /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/binary.h \
+ /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/esp8266_peri.h \
+ /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/tools/sdk/include/c_types.h \
+ /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/esp8266_undocumented.h \
+ /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/tools/sdk/include/eagle_soc.h \
+ /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/tools/sdk/include/spi_flash.h \
+ /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/tools/sdk/include/spi_flash_geometry.h \
+ /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/twi.h \
+ /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/Arduino.h \
+ /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/core_esp8266_features.h \
+ /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/core_esp8266_version.h \
+ /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/core_version.h \
+ /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/debug.h \
+ /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/variants/generic/pins_arduino.h \
+ /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/variants/generic/common.h \
+ /Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/esp_xpgm.h \
+ /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/pgmspace.h \
+ /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/tools/sdk/include/ets_sys.h \
+ /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/tools/sdk/include/c_types.h \
+ /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/tools/sdk/include/eagle_soc.h \
+ /Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/wolfssl/wolfcrypt/fe_operations.h \
+ /Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/wolfssl/wolfcrypt/types.h \
+ /Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/wolfssl/wolfcrypt/wc_port.h \
+ /Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/wolfssl/wolfcrypt/misc.h

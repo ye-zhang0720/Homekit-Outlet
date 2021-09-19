@@ -1,0 +1,322 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/variants/generic"
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/智能开关/homekit/outlet/build/sketch/outlet.ino.cpp",
+    "Include": "ESP8266WiFi.h",
+    "Includepath": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266WiFi/src"
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/智能开关/homekit/outlet/build/sketch/outlet.ino.cpp",
+    "Include": "arduino_homekit_server.h",
+    "Includepath": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src"
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/智能开关/homekit/outlet/build/sketch/outlet.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/智能开关/homekit/outlet/build/sketch/outlet_accessory.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266WiFi/src/BearSSLHelpers.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266WiFi/src/CertStoreBearSSL.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266WiFi/src/ESP8266WiFi.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266WiFi/src/ESP8266WiFiAP.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266WiFi/src/ESP8266WiFiGeneric.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266WiFi/src/ESP8266WiFiGratuitous.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266WiFi/src/ESP8266WiFiMulti.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266WiFi/src/ESP8266WiFiSTA-WPS.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266WiFi/src/ESP8266WiFiSTA.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266WiFi/src/ESP8266WiFiScan.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266WiFi/src/WiFiClient.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266WiFi/src/WiFiClientSecureBearSSL.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266WiFi/src/WiFiServer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266WiFi/src/WiFiServerSecureBearSSL.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266WiFi/src/WiFiUdp.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266WiFi/src/enable_wifi_at_boot_time.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/accessories.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/arduino_homekit_server.cpp",
+    "Include": "ESP8266mDNS.h",
+    "Includepath": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266mDNS/src"
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/arduino_homekit_server.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/base64.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/cJSON.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/cQueue.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/crypto.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/homekit_debug.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/http_parser.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/json.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/port.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/query_params.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/storage.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/tlv.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/types.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/watchdog.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/wolfcrypt/src/chacha.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/wolfcrypt/src/chacha20_poly1305.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/wolfcrypt/src/curve25519.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/wolfcrypt/src/ed25519.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/wolfcrypt/src/error.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/wolfcrypt/src/fe_low_mem.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/wolfcrypt/src/fe_operations.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/wolfcrypt/src/ge_low_mem.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/wolfcrypt/src/ge_operations.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/wolfcrypt/src/hash.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/wolfcrypt/src/hmac.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/wolfcrypt/src/integer.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/wolfcrypt/src/misc.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/wolfcrypt/src/poly1305.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/wolfcrypt/src/random.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/wolfcrypt/src/sha.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/wolfcrypt/src/sha256.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/wolfcrypt/src/sha512.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/wolfcrypt/src/srp.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/wolfcrypt/src/wolfmath.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266mDNS/src/ESP8266mDNS.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266mDNS/src/LEAmDNS.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266mDNS/src/LEAmDNS_Control.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266mDNS/src/LEAmDNS_Helpers.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266mDNS/src/LEAmDNS_Structs.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266mDNS/src/LEAmDNS_Transfer.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
