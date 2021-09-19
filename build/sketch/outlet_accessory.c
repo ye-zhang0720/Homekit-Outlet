@@ -1,4 +1,4 @@
-#line 1 "/Users/zhangye/Documents/智能开关/homekit/outlet/outlet_accessory.c"
+#line 1 "/Users/zhangye/Documents/智能家居/HomekitOutlet/outlet_accessory.c"
 /*
  * simple_led_accessory.c
  * Define the accessory in pure C language using the Macro in characteristics.h
@@ -41,13 +41,11 @@ void outlet_update() {
 		digitalWrite(PIN_Outlet, HIGH);
 	}
 }
-
-void outlet_toggle() {
-	outlet_in_use.value.bool_value = !outlet_in_use.value.bool_value;
-	//outlet_in_use.setter(outlet_in_use.value);
-	homekit_characteristic_notify(&outlet_in_use, outlet_in_use.value);
-}
 */
+
+
+
+
 
 void accessory_identify(homekit_value_t _value) {
 	printf("accessory identify\n");

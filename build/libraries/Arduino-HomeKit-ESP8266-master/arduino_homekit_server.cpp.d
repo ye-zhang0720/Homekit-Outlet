@@ -1,4 +1,4 @@
-/Users/zhangye/Documents/智能开关/homekit/outlet/build/libraries/Arduino-HomeKit-ESP8266-master/arduino_homekit_server.cpp.o: \
+/Users/zhangye/Documents/智能家居/HomekitOutlet/build/libraries/Arduino-HomeKit-ESP8266-master/arduino_homekit_server.cpp.o: \
  /Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src/arduino_homekit_server.cpp \
  /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/Arduino.h \
  /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/stdlib_noniso.h \

@@ -1,4 +1,4 @@
-/Users/zhangye/Documents/智能开关/homekit/outlet/build/libraries/ESP8266WiFi/ESP8266WiFiSTA.cpp.o: \
+/Users/zhangye/Documents/智能家居/HomekitOutlet/build/libraries/ESP8266WiFi/ESP8266WiFiSTA.cpp.o: \
  /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266WiFi/src/ESP8266WiFiSTA.cpp \
  /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266WiFi/src/ESP8266WiFi.h \
  /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/wl_definitions.h \

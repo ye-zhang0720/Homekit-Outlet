@@ -1,4 +1,4 @@
-/Users/zhangye/Documents/智能开关/homekit/outlet/build/core/Updater.cpp.o: \
+/Users/zhangye/Documents/智能家居/HomekitOutlet/build/core/Updater.cpp.o: \
  /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/Updater.cpp \
  /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/Updater.h \
  /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/Arduino.h \
@@ -48,7 +48,7 @@
  /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/eboot_command.h \
  /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/esp8266_peri.h \
  /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/StackThunk.h \
- /Users/zhangye/Documents/智能开关/homekit/outlet/build/core/Updater_Signing.h \
+ /Users/zhangye/Documents/智能家居/HomekitOutlet/build/core/Updater_Signing.h \
  /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/tools/sdk/include/user_interface.h \
  /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/tools/sdk/include/os_type.h \
  /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/tools/sdk/include/ets_sys.h \

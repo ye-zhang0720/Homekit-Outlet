@@ -1,4 +1,4 @@
-/Users/zhangye/Documents/智能开关/homekit/outlet/build/libraries/ESP8266mDNS/LEAmDNS_Helpers.cpp.o: \
+/Users/zhangye/Documents/智能家居/HomekitOutlet/build/libraries/ESP8266mDNS/LEAmDNS_Helpers.cpp.o: \
  /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266mDNS/src/LEAmDNS_Helpers.cpp \
  /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/tools/sdk/lwip2/include/lwip/igmp.h \
  /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/tools/sdk/lwip2/include/lwip/opt.h \

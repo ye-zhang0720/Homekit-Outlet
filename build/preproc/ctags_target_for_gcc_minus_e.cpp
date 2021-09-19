@@ -1,73 +1,85 @@
-# 1 "/Users/zhangye/Documents/智能开关/homekit/outlet/outlet.ino"
+# 1 "/Users/zhangye/Documents/智能家居/HomekitOutlet/HomekitOutlet.ino"
 /*
  * outlet.ino
  *
- * This accessory contains a builtin-led on ESP8266
+ * This accessory contains tow builtin-leds, a button and a relay on ESP M4
  * Setup code: 111-11-111
- * The Flash-Button(D3, GPIO0) on NodeMCU:
- *
- *  Created on: 2020-02-08
- *      Author: Mixiaoxiao (Wang Bin)
- *  Edited on: 2020-03-01
- *      Edited by: euler271 (Jonas Linn)
+ * The Red Led is linked to GPIO 16
+ * The Blue Led is linked to GPIO 12
+ * The Button is linked to GPIO 13
+ * The Relay is linked to GPIO 14
+ * 
+ * 
+ *  Created on: 2021-09-19
+ *      Author: ye zhang
+ *      
  */
 
-# 15 "/Users/zhangye/Documents/智能开关/homekit/outlet/outlet.ino" 2
-# 16 "/Users/zhangye/Documents/智能开关/homekit/outlet/outlet.ino" 2
 
-# 18 "/Users/zhangye/Documents/智能开关/homekit/outlet/outlet.ino" 2
+# 19 "/Users/zhangye/Documents/智能家居/HomekitOutlet/HomekitOutlet.ino" 2
+# 20 "/Users/zhangye/Documents/智能家居/HomekitOutlet/HomekitOutlet.ino" 2
+# 21 "/Users/zhangye/Documents/智能家居/HomekitOutlet/HomekitOutlet.ino" 2
+# 22 "/Users/zhangye/Documents/智能家居/HomekitOutlet/HomekitOutlet.ino" 2
 
+# 24 "/Users/zhangye/Documents/智能家居/HomekitOutlet/HomekitOutlet.ino" 2
+# 25 "/Users/zhangye/Documents/智能家居/HomekitOutlet/HomekitOutlet.ino" 2
 
+# 27 "/Users/zhangye/Documents/智能家居/HomekitOutlet/HomekitOutlet.ino" 2
+# 28 "/Users/zhangye/Documents/智能家居/HomekitOutlet/HomekitOutlet.ino" 2
+# 42 "/Users/zhangye/Documents/智能家居/HomekitOutlet/HomekitOutlet.ino"
+//按键配置
+ButtonDebounce btn(13, 0x02, 0x0);
+ButtonHandler btnHandler;
 
+WiFiManager wifiManager;
 
-//D0 16 //led
-//D3  0 //flash button
-//D4  2 //led
-
-
-
-
-
-const char *ssid = "your-ssid";
-const char *password = "your-password";
-
-void blink_led(int interval, int count) {
+void blink_led(unsigned char pin, int interval, int count) {
  for (int i = 0; i < count; i++) {
-  builtinledSetStatus(true);
+  builtinledSetStatus(16, true);
   delay(interval);
-  builtinledSetStatus(false);
+  builtinledSetStatus(16, false);
   delay(interval);
  }
 }
 
+void builtinledSetStatus(unsigned char pin, bool on) {
+ digitalWrite(pin, on ? 0x0 : 0x1);
+}
+
+
+void __attribute__((section("\".iram.text." "HomekitOutlet.ino" "." "62" "." "133" "\""))) btnInterrupt() {
+  btn.update();
+}
+
+
+
 void setup() {
  Serial.begin(115200);
- Serial.setRxBufferSize(32);
- Serial.setDebugOutput(false);
 
- pinMode(16/*D0*/, 0x01);
- WiFi.mode(WIFI_STA);
- WiFi.persistent(false);
- WiFi.disconnect(false);
- WiFi.setAutoReconnect(true);
- WiFi.begin(ssid, password);
 
- printf("\n");
- printf("SketchSize: %d B\n", ESP.getSketchSize());
- printf("FreeSketchSpace: %d B\n", ESP.getFreeSketchSpace());
- printf("FlashChipSize: %d B\n", ESP.getFlashChipSize());
- printf("FlashChipRealSize: %d B\n", ESP.getFlashChipRealSize());
- printf("FlashChipSpeed: %d\n", ESP.getFlashChipSpeed());
- printf("SdkVersion: %s\n", ESP.getSdkVersion());
- printf("FullVersion: %s\n", ESP.getFullVersion().c_str());
- printf("CpuFreq: %dMHz\n", ESP.getCpuFreqMHz());
- printf("FreeHeap: %d B\n", ESP.getFreeHeap());
- printf("ResetInfo: %s\n", ESP.getResetInfo().c_str());
- printf("ResetReason: %s\n", ESP.getResetReason().c_str());
- ;
+ pinMode(16, 0x01);
+    pinMode(12, 0x01);
+    pinMode(14, 0x01);
+
+    blink_led(16,200, 3);
+
+    wifiManager.setBreakAfterConfig(true);
+    if (!wifiManager.autoConnect("AutoConnectAP", "password")) {
+      Serial.println("failed to connect, we should reset as see if it connects");
+      delay(3000);
+      ESP.reset();
+      delay(5000);
+    }
+
+    //if you get here you have connected to the WiFi
+    Serial.println("connected...yeey :)");
+    Serial.println("local ip");
+    Serial.println(WiFi.localIP());
+
  homekit_setup();
- ;
- blink_led(200, 3);
+
+
+ blink_led(12,200, 3);
 }
 
 void loop() {
@@ -75,9 +87,6 @@ void loop() {
  delay(5);
 }
 
-void builtinledSetStatus(bool on) {
- digitalWrite(16/*D0*/, on ? 0x0 : 0x1);
-}
 
 //==============================
 // Homekit setup and loop
@@ -85,42 +94,78 @@ void builtinledSetStatus(bool on) {
 
 extern "C" homekit_server_config_t config;
 extern "C" homekit_characteristic_t outlet_in_use;
+//extern "C" void outlet_toggle();
+
+
 
 
 void outlet_in_use_setter(const homekit_value_t value) {
  bool on = value.bool_value;
  outlet_in_use.value.bool_value = on; //sync the value
- printf("Switch: %s\n", on ? "ON" : "OFF");
- digitalWrite(14/*D4*/, on ? 0x0 : 0x1);
+
+
+     printf("Switch: %s\n", on ? "ON" : "OFF");
+
+
+    digitalWrite(14, on ? 0x0 : 0x1);
+    digitalWrite(12, on ? 0x0 : 0x1);
+}
+
+void outlet_toggle() {
+ outlet_in_use.value.bool_value = !outlet_in_use.value.bool_value;
+ outlet_in_use.setter(outlet_in_use.value);
+ homekit_characteristic_notify(&outlet_in_use, outlet_in_use.value);
+    digitalWrite(14, outlet_in_use.value.bool_value ? 0x0 : 0x1);
+    digitalWrite(12, outlet_in_use.value.bool_value ? 0x0 : 0x1);
 }
 
 
-
-
 void homekit_setup() {
- pinMode(14/*D4*/, 0x01);
 
  outlet_in_use.setter = outlet_in_use_setter;
 
  arduino_homekit_setup(&config);
 
+    btn.setCallback(std::bind(&ButtonHandler::handleChange, &btnHandler,
+     std::placeholders::_1));
+    btn.setInterrupt(btnInterrupt);
+    btnHandler.setIsDownFunction(std::bind(&ButtonDebounce::checkIsDown, &btn));
+    btnHandler.setCallback([](button_event e) {
+    if (e == BUTTON_EVENT_SINGLECLICK) {
+
+            Serial.println("Button Event: SINGLECLICK");
+
+        outlet_toggle();
+    } else if (e == BUTTON_EVENT_LONGCLICK) {
+
+            Serial.println("Button Event: LONGCLICK");
+            Serial.println("Rebooting...");
+
+        blink_led(16, 200, 3);
+        homekit_storage_reset();
+        wifiManager.resetSettings();
+        blink_led(16, 200, 3);
+        ESP.reset(); // or system_restart();
+    }
+  });
 }
 
 static unsigned long next_heap_millis = 0;
 
 void homekit_loop() {
+    btnHandler.loop();
  arduino_homekit_loop();
     const unsigned long t = millis();
  if (t > next_heap_millis) {
         next_heap_millis = t + 5 * 1000;
   printf_P(
-# 115 "/Users/zhangye/Documents/智能开关/homekit/outlet/outlet.ino" 3
- (__extension__({static const char __pstr__[] __attribute__((__aligned__(4))) __attribute__((section( "\".irom0.pstr." "outlet.ino" "." "115" "." "9" "\", \"aSM\", @progbits, 1 #"))) = (
-# 115 "/Users/zhangye/Documents/智能开关/homekit/outlet/outlet.ino"
+# 173 "/Users/zhangye/Documents/智能家居/HomekitOutlet/HomekitOutlet.ino" 3
+ (__extension__({static const char __pstr__[] __attribute__((__aligned__(4))) __attribute__((section( "\".irom0.pstr." "HomekitOutlet.ino" "." "173" "." "134" "\", \"aSM\", @progbits, 1 #"))) = (
+# 173 "/Users/zhangye/Documents/智能家居/HomekitOutlet/HomekitOutlet.ino"
  ">>> [%7d] HomeKit: " "heap: %d, sockets: %d" "\n"
-# 115 "/Users/zhangye/Documents/智能开关/homekit/outlet/outlet.ino" 3
+# 173 "/Users/zhangye/Documents/智能家居/HomekitOutlet/HomekitOutlet.ino" 3
  ); &__pstr__[0];})) 
-# 115 "/Users/zhangye/Documents/智能开关/homekit/outlet/outlet.ino"
+# 173 "/Users/zhangye/Documents/智能家居/HomekitOutlet/HomekitOutlet.ino"
  , millis(), ESP.getFreeHeap(), arduino_homekit_connected_clients_count());;
  }
 }

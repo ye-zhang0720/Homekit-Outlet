@@ -1,4 +1,4 @@
-/Users/zhangye/Documents/智能开关/homekit/outlet/build/libraries/ESP8266WiFi/BearSSLHelpers.cpp.o: \
+/Users/zhangye/Documents/智能家居/HomekitOutlet/build/libraries/ESP8266WiFi/BearSSLHelpers.cpp.o: \
  /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266WiFi/src/BearSSLHelpers.cpp \
  /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266WiFi/src/BearSSLHelpers.h \
  /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/tools/sdk/include/bearssl/bearssl.h \
@@ -61,4 +61,4 @@
  /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/WString.h \
  /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/Stream.h \
  /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/md5.h \
- /Users/zhangye/Documents/智能开关/homekit/outlet/build/core/Updater_Signing.h
+ /Users/zhangye/Documents/智能家居/HomekitOutlet/build/core/Updater_Signing.h

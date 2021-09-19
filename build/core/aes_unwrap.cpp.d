@@ -1,4 +1,4 @@
-/Users/zhangye/Documents/智能开关/homekit/outlet/build/core/aes_unwrap.cpp.o: \
+/Users/zhangye/Documents/智能家居/HomekitOutlet/build/core/aes_unwrap.cpp.o: \
  /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/aes_unwrap.cpp \
  /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/umm_malloc/umm_malloc.h \
  /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/umm_malloc/umm_malloc_cfg.h \

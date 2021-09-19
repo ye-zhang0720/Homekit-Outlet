@@ -1,4 +1,4 @@
-/Users/zhangye/Documents/智能开关/homekit/outlet/build/core/exc-c-wrapper-handler.S.o: \
+/Users/zhangye/Documents/智能家居/HomekitOutlet/build/core/exc-c-wrapper-handler.S.o: \
  /Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266/exc-c-wrapper-handler.S \
  /Users/zhangye/Library/Arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.0.4-gcc10.3-1757bed/include/xtensa/coreasm.h \
  /Users/zhangye/Library/Arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.0.4-gcc10.3-1757bed/include/xtensa/config/core.h \

@@ -10,22 +10,37 @@
     "Includepath": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/variants/generic"
   },
   {
-    "Sourcefile": "/Users/zhangye/Documents/智能开关/homekit/outlet/build/sketch/outlet.ino.cpp",
+    "Sourcefile": "/Users/zhangye/Documents/智能家居/HomekitOutlet/build/sketch/HomekitOutlet.ino.cpp",
     "Include": "ESP8266WiFi.h",
     "Includepath": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266WiFi/src"
   },
   {
-    "Sourcefile": "/Users/zhangye/Documents/智能开关/homekit/outlet/build/sketch/outlet.ino.cpp",
+    "Sourcefile": "/Users/zhangye/Documents/智能家居/HomekitOutlet/build/sketch/HomekitOutlet.ino.cpp",
+    "Include": "WiFiManager.h",
+    "Includepath": "/Users/zhangye/Documents/Arduino/libraries/WiFiManager-master"
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/智能家居/HomekitOutlet/build/sketch/HomekitOutlet.ino.cpp",
+    "Include": "ESP8266WebServer.h",
+    "Includepath": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266WebServer/src"
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/智能家居/HomekitOutlet/build/sketch/HomekitOutlet.ino.cpp",
+    "Include": "DNSServer.h",
+    "Includepath": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/DNSServer/src"
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/智能家居/HomekitOutlet/build/sketch/HomekitOutlet.ino.cpp",
     "Include": "arduino_homekit_server.h",
     "Includepath": "/Users/zhangye/Documents/Arduino/libraries/Arduino-HomeKit-ESP8266-master/src"
   },
   {
-    "Sourcefile": "/Users/zhangye/Documents/智能开关/homekit/outlet/build/sketch/outlet.ino.cpp",
+    "Sourcefile": "/Users/zhangye/Documents/智能家居/HomekitOutlet/build/sketch/HomekitOutlet.ino.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "/Users/zhangye/Documents/智能开关/homekit/outlet/build/sketch/outlet_accessory.c",
+    "Sourcefile": "/Users/zhangye/Documents/智能家居/HomekitOutlet/build/sketch/outlet_accessory.c",
     "Include": "",
     "Includepath": null
   },
@@ -106,6 +121,21 @@
   },
   {
     "Sourcefile": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266WiFi/src/enable_wifi_at_boot_time.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Documents/Arduino/libraries/WiFiManager-master/WiFiManager.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266WebServer/src/detail/mimetable.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/zhangye/Library/Arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries/DNSServer/src/DNSServer.cpp",
     "Include": "",
     "Includepath": null
   },
