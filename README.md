@@ -2,6 +2,7 @@
 直接接入HomeKit
 /*
  * outlet.ino
+ * based on Arduino
  *
  * This accessory contains tow builtin-leds, a button and a relay on ESP M4
  * Setup code: 111-11-111
