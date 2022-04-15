@@ -177,7 +177,7 @@ extern "C" homekit_characteristic_t serial_number;
 #define ChineseWordNumber 4
 #define EnglishWordNumber 0
 char name_generation[EnglishWordNumber + ChineseWordNumber * 3 + 13] = "智能插座";
-char categoryNo = 5;
+char categoryNo = 7;
 uint8_t MAC_array_STA[6];
 char SN[13];
 char Setup_ID[5];
