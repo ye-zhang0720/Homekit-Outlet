@@ -1,8 +1,14 @@
 # Homekit-Outlet
+
 原生接入HomeKit
+
 based on Arduino
+
 This accessory contains tow builtin-leds, a button and a relay on ESP M4（esp8285）
+
 Setup code: 根据MAC地址生成，串口打印处调试
+
+连接引脚：
 The Red Led is linked to GPIO 16
 The Blue Led is linked to GPIO 12
 The Button is linked to GPIO 13
