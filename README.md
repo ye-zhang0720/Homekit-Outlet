@@ -9,10 +9,13 @@ This accessory contains tow builtin-leds, a button and a relay on ESP M4（esp82
 Setup code: 根据MAC地址生成，串口打印处调试
 
 连接引脚：
-The Red Led is linked to GPIO 16
-The Blue Led is linked to GPIO 12
-The Button is linked to GPIO 13
-The Relay is linked to GPIO 14
+红色LED GPIO 16
+
+蓝色LED GPIO 12
+
+按钮 GPIO 13
+
+继电器 GPIO 14
 
 
 使用方法：
